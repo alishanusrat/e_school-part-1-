@@ -1,0 +1,69 @@
+/*font links*/
+@font-face{
+	src:url(../font/poppins/poppins-regular.ttf);
+	font-family:poppins-regular ;
+}
+@font-face{
+	src:url(../font/poppins/poppins-medium.ttf);
+	font-family:poppins-medium ;
+}
+@font-face{
+	src:url(../font/poppins/poppins-bold.ttf);
+	font-family:poppins-bold ;
+}
+@font-face{
+	src:url(../font/roboto/roboto-regular.ttf);
+	font-family:roboto-regular ;
+}
+
+/*common start*/
+:root{
+	--pop: poppins-regular;
+	--rob: roboto-regular;
+	--fs:16px;
+	--fwr: 400;
+	--black: #000000;
+	--green:#21B573;
+	--red:#FD511A;
+	--bgg:#e3f1e3;
+}
+body{
+	font-family:var(--pop);
+	font-size:var(--fs);
+	font-weight:var(--fwr);
+	color:var(--black);
+
+}
+/*commmon end*/
+
+/*header start*/
+header{
+background-color:var(--bgg);
+}
+.m_nav{
+
+}
+.logo{
+
+}
+.menu{
+
+}
+.menu ul li a{
+	padding:0 25px !important;
+	font-size: 16px;
+	font-weight: var(--fwr);
+	color:var(--black) !important;
+	line-height: 24px;
+}
+.menu ul li a:hover{
+color:var(--red) !important;
+	
+}
+.btn_c{
+
+}
+.btn_sign{
+
+}
+/*header end*/
